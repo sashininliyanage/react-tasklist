@@ -1,15 +1,13 @@
 import Header from "./components/Header";
+import Tasks from "./components/Tasks";
 
 const App = ()=> {
     return ( 
     <div className = "container" >
-      <Header></Header>
+      <Header/>
+      <Tasks/>
     </div>
     );
-}
-
-Header.defaultProps = {
-    title : "Trace Tracker",
 }
 
 export default App;
